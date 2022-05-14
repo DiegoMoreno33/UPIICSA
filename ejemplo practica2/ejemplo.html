@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Ejemplo1 JavaScript</title>
+
+<meta charset="utf-8"/>
+<script src='ejemplo.js' language='Javascript'></script>
+<style>
+#calendario{
+display:none;
+}
+</style>
+</head>
+<body>
+<h1> Lista utilizando Map</h1>
+<p> Identificador: <input type="text" name="identificador" id="identificador"> Nombre: <input type="text" name="nombre" id="nombre"></p>
+<input type="button" name="agregar" id="agregar" value="Agregar al Map" onclick="agregar()" />
+<input type="button" name="lista" id="lista" value="Ver lista" onclick="verLista()"/>
+
+<div id='despliegaLista'></div>
+
+<h1>Seleccion de tareas usando Set</h1>
+Tarea: <input type="text" name="int_actividad" id="int_actividad"></p>
+<p> <input type="button" name="in_actividad" id="in_actividad" value="Agregar al Set" onclick="agregaSet()" /></p>
+<div id="actividades"></div>
+
+
+<h1> Lista utilizando WeakMap</h1>
+<p> Identificador: <input type="text" name="weak_identificador" id="weak_identificador"> Nombre: <input type="text" name="weak_nombre" id="weak_nombre"></p>
+<input type="button" name="agregar" id="weak_agregar" value="Agregar al WeakMap" onclick="weakMapAgregarLista()" />
+
+
+<div id='weakDespliegaLista'></div>
+</body>
+</html>
