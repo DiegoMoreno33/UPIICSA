@@ -1,0 +1,11 @@
+Aerolinea.contraseña$3
+fisica.contraseña
+Aerolinea.contraseña$4
+Aerolinea.contraseña$5
+fisica.contraseña$1
+Aerolinea.contraseña$1
+Aerolinea.contraseña$2
+fisica.contraseña$3
+Aerolinea.contraseña
+fisica.contraseña$2
+fisica.contraseña$4
